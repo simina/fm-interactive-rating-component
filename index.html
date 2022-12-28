@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- displays site properly based on user's device -->
+
+    <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+    <link rel="stylesheet" href="index.css">
+    <title>Frontend Mentor | Interactive rating component</title>
+
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,700;1,9..144,700&family=Overpass:wght@400;700&display=swap"
+          rel="stylesheet">
+</head>
+<body>
+
+<div class="rate-start content">
+    <!-- Rating state start -->
+    <div class="circle">
+        <img class="icon-star" src="images/icon-star.svg" alt="star icon">
+    </div>
+    <h1>How did we do?</h1>
+
+    <p class="description">
+        Please let us know how we did with your support request. All feedback is appreciated
+        to help us improve our offering!
+    </p>
+    <ul class="rating">
+        <li class="circle-rating">1</li>
+        <li class="circle-rating">2</li>
+        <li class="circle-rating">3</li>
+        <li class="circle-rating">4</li>
+        <li class="circle-rating">5</li>
+    </ul>
+    <button class="btn">Submit</button>
+    <!-- Rating state end -->
+</div>
+<div class="thank-you content no-visibility">
+    <!-- Thank you state start -->
+    <img class="thank-you-img" src="images/illustration-thank-you.svg" alt="thank you icon">
+
+    <label class="summary-rating">You selected <span id="rating-result">4</span> out of 5</label>
+
+    <h1>Thank you!</h1>
+
+    <p>We appreciate you taking the time to give a rating. If you ever need more support,
+        don’t hesitate to get in touch!
+    </p>
+    <!-- Thank you state end -->
+</div>
+
+<script type="text/javascript" src="index.js"></script>
+
+</body>
+</html>
